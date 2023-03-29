@@ -13,7 +13,7 @@ var venta_routes = require("./routes/venta");
 var app = express();
 
 mongoose.connect(
-   "mongodb://mongo:0vG8fLOWguHgoKAVLhFN@containers-us-west-165.railway.app:6040",
+   "mongodb://mongo:rtoXkb7gtIfDu6f034Xv@containers-us-west-141.railway.app:6221",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true
