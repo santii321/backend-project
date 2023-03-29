@@ -34,8 +34,9 @@ app.use(bodyparser.json());
 
 app.use((req, res, next) => {
   res.header("Content-Type: application/json");
-  res.header("Access-Control-Allow-Origin", "*");
+  res.header('Access-Control-Allow-Origin', 'https://front-end-az-djsp.vercel.app');
   res.header(
+    
     "Access-Control-Allow-Headers",
     "Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Access-Control-Allow-Request-Method"
   );

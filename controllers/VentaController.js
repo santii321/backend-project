@@ -10,6 +10,7 @@ function registrar(req, res) {
   venta.iduser = data.iduser;
   venta.descuentoFactura = data.descuentoFactura;
   const idActualTable = "6412336f8f44ec07509417d8";
+                         
 
   VentaActual.findById(idActualTable)
     .populate("_id")
